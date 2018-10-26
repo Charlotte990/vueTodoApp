@@ -23,7 +23,6 @@ export default {
       'updateItem'
     ]),
     deleteTodo(id) {
-      console.log(id)
       this.deleteItem(id)
     },
     updateTodo() {
